@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Orbital Economy</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <style>
+    body { 
+      font-family: system-ui, -apple-system, sans-serif; 
+      background: radial-gradient(circle at center, #0a0a0a 0%, #000000 70%);
+    }
+    .logo-glow {
+      filter: drop-shadow(0 0 30px rgb(163 230 77)) 
+              drop-shadow(0 0 50px rgb(163 230 77 / 0.4));
+    }
+  </style>
+</head>
+<body class="text-white min-h-screen flex items-center justify-center py-12">
+  <div class="max-w-md w-full mx-auto text-center px-6">
+    
+    <!-- Logo -->
+    <img src="logo.png" 
+         alt="The Orbital Economy" 
+         class="logo-glow mx-auto w-48 h-48 object-contain mb-6 transition-transform hover:scale-105 duration-300">
+
+    <h1 class="text-5xl font-bold tracking-tighter mb-3">The Orbital Economy</h1>
+    
+    <!-- Tagline -->
+    <p class="text-emerald-300 text-xl leading-tight max-w-xs mx-auto mb-12">
+      Space. Business.<br>
+      Science fiction.<br>
+      The next economy being built above Earth.
+    </p>
+
+    <!-- Links -->
+    <div class="space-y-4">
+      <a href="https://substack.com/@theorbitaleconomy" target="_blank" class="block bg-white text-black hover:bg-emerald-100 active:scale-[0.97] transition-all font-medium py-4 px-6 rounded-3xl flex items-center gap-4 text-lg shadow-lg">
+        <i class="fa-solid fa-newspaper text-2xl"></i>
+        <span class="flex-1 text-left">Substack</span>
+        <i class="fa-solid fa-arrow-right"></i>
+      </a>
+
+      <a href="https://x.com/OrbitalEconomyX" target="_blank" class="block bg-zinc-900 border border-zinc-700 hover:border-emerald-400 hover:text-emerald-400 transition-all font-medium py-4 px-6 rounded-3xl flex items-center gap-4 text-lg">
+        <i class="fa-brands fa-x-twitter text-2xl"></i>
+        <span class="flex-1 text-left">X / Twitter</span>
+        <i class="fa-solid fa-arrow-right"></i>
+      </a>
+
+      <a href="https://www.youtube.com/channel/UCAcW6QBoXOQG4UWDB4Yeogw" target="_blank" class="block bg-zinc-900 border border-zinc-700 hover:border-red-500 hover:text-red-500 transition-all font-medium py-4 px-6 rounded-3xl flex items-center gap-4 text-lg">
+        <i class="fa-brands fa-youtube text-2xl"></i>
+        <span class="flex-1 text-left">YouTube</span>
+        <i class="fa-solid fa-arrow-right"></i>
+      </a>
+    </div>
+
+    <p class="text-zinc-500 text-sm mt-16">theorbitaleconomy.com</p>
+  </div>
+</body>
+</html>
